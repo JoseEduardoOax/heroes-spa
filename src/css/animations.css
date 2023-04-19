@@ -1,0 +1,27 @@
+@keyframes fade-center {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.animation-fade-center{
+  animation: fade-center 2s ease 0s 1 normal forwards;
+}
+
+@keyframes scale-forward-center {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.animation-scale-forward-center{
+  animation: scale-forward-center 1s ease 0s 1 normal forwards;
+}

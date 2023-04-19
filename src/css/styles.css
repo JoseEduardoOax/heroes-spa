@@ -1,0 +1,270 @@
+/* estilos generales */
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h1{
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+
+h2{
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h4{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+input{
+  font-size: 2.5rem;
+}
+
+/* estilos por clases independientes */
+
+.grid{
+  display: grid;
+}
+
+.container{
+  max-width: 150rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.text-color-orange{
+  color: #e67e22;
+}
+
+.btn{
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary{
+  background-color: #e67e22;
+  color: #ffffff;
+}
+
+.btn-secondary{
+  color: #ffffff;
+  background-color: green;
+}
+
+.btn-danger{
+  color:#ffffff;
+  background-color: red;
+}
+
+.btn-more{
+  background-color: green;
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.icon{
+  height: 7rem;
+  stroke: #E3CCAE;
+}
+
+.link{
+  text-decoration: none;
+  color: #E3CCAE;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.grid{
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--4-cols{
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--2-cols{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--2-cols-40-60{
+  grid-template-columns: 40% 1fr;
+}
+
+.grid--3-cols{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.p-y{
+  padding: 1.6rem 0;
+}
+
+.p-x{
+  padding: 0 4.8rem;
+}
+
+.m-top, .m-y{
+  margin-top: 1.6rem;
+}
+
+.m-right{
+  margin-right: 1.6rem;
+}
+
+.m-bottom, .m-y{
+  margin-bottom: 1.6rem;
+}
+
+.height-md{
+  height: 9.6rem;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-60{
+  width: 60%;
+}
+
+.title{
+  color: #cf711f;
+  margin-bottom: 2.4rem;
+}
+
+.subtitle{
+  font-size: 3.5rem;
+  font-weight: 500;
+  letter-spacing: .4rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.border-y{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.rounded-md{
+  border-radius: 6px;
+}
+
+/* estilos por components */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+
+.navegation-list{
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+span.link{
+  cursor: pointer;
+}
+
+a.btn, a.btn-more{
+  text-decoration: none;
+}
+
+a.w-100{
+  display: block;
+}
+
+.link.active,
+.link:hover{
+  color: #FFD966;
+  display: flex;
+}
+
+.comic-card{
+  background-color: white;
+  box-shadow: 0 4rem 6rem -1rem rgba(0, 0, 0, .1) , 0 2rem 4rem -2rem rgba(0,0,0,.1);
+  padding-bottom: 2rem;
+}
+
+.card-description{
+  display: grid;
+}
+
+.card-description-information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.alert{
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.alert-danger{
+  background-color: #cf711f;
+  color: #ffffff;
+}
+
+.alert-info{
+  background-color: #2196F3;
+  color: #ffffff;
+}
+
+.alert-success{
+  background-color: #04AA6D;
+  color: #ffffff;
+}
+
+.alert-error{
+  background-color: red;
+  color: #ffffff;
+}
+
