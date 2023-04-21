@@ -20,7 +20,7 @@ export const HeroPage = () => {
     <div className="container w-60 text-center">
       <div className="card-description grid--2-cols">
 
-        <img src={`/assets/heroes/${id}.jpg`}
+        <img src={`/heroes/${id}.jpg`}
           alt=""
           className="w-100 animation-scale-forward-center" />
 
